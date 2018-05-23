@@ -1,0 +1,154 @@
+* {
+    margin: 0 auto;
+    background-size: 100% 720px;
+    background-image: url("images/bg.jpeg");
+    background-color: white;
+}
+button {
+    padding: 5px;
+    margin-right: 10px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+                    /*                      FOR DEAREST HEADER
+                                          headerTop = Transparant
+                            headerTopLeft = ...@.com             headerTopRight = 3icon and 2button
+
+                                          headerBottom = nonTransparant    
+                       headerBottomLeft = Logo              headerBottomRight = Menu Bar
+                    */
+
+/* HEADER start */
+.header {
+    width: 100%;
+    height: 120px;
+    color: white;
+}
+
+/* Transparant start */
+.headerTop {
+    height: 60px;
+    background:#000;opacity:0.4;filter:alpha(opacity=40);
+}
+.headerTopLeft {
+    float: left;
+    margin-top: 15px;
+    margin-left: 30px;
+    background-attachment: fixed;
+}
+.headerTopRight {
+    float: right;
+    margin-top: 5px;
+}
+/* Transparant end */
+
+.headerBottom {
+    width: auto;
+}
+
+/* Logo start */
+.headerBottomLeft {
+    float: left;
+    width: 45%;
+    background-attachment: fixed;
+}
+.headerBottomLeft img {
+    width: 100px;
+    height: 70px;
+    background-attachment: fixed;
+    margin-left: 20px;
+    float: left;
+}
+.headerBottomLeft p {
+    font-size: 25px;
+    margin-left: 150px;
+    margin-top: 7px;
+    background-attachment: fixed;
+    line-height: 30px;
+}
+.headerBottomLeft ul {
+    margin: 0 auto;
+    background-attachment: fixed;
+}
+.headerBottomLeft ul li {
+    display: inline-block;
+    margin-left: 19px;
+    background-attachment: fixed;
+}
+.headerBottomLeft ul li i {
+    background-attachment: fixed;
+}
+/* Logo end */
+
+/* Menu Bar start */
+.headerBottomRight {
+    float: right;
+    width: 55%;
+    background-attachment: fixed;
+    font-size: 18px;
+    line-height: 50px;
+}
+/* .headerBottomRight ul {
+    background-attachment: fixed;
+    list-style: none;
+}
+.headerBottomRight ul li {
+    display: inline-block;
+    background-attachment: fixed;
+    margin-right: 10px;
+}
+.headerBottomRight ul li a font {
+    background-attachment: fixed;
+} */
+.headerBottomRight a {
+    background-attachment: fixed;
+    color: #fff;
+    margin: 5px;
+}
+.headerBottomRight a i {
+    background-attachment: fixed;
+    color: #fff;
+    transition: all 0.5s;
+}
+/* Menu Bar end */
+/* HEADER end */
+
+/* BODY start */
+.body {
+    background-attachment: fixed;
+    margin-top: 90px;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+}
+.body h1 {
+    background-attachment: fixed;
+}
+.body h1 b {
+    color: #fff;
+    background-attachment: fixed;
+    font-size: 50px;
+}
+.body h2 {
+    color: #fff;
+    background-attachment: fixed;
+}
+.body h2 i {
+    color: #fff;
+    background-attachment: fixed;
+}
+.body img {
+    float: right;
+    background-attachment: fixed;
+    width: 20%;
+    height: 66%;
+    margin-top: 0px;
+}
+/* BODY end */
+
+/* FOOTER start */
+
+/* FOOTER end */
